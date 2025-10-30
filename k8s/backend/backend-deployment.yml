@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: public.ecr.aws/y3r2o5t7/backend
+          image: public.ecr.aws/j3o0k2l3/backend
           ports:
             - containerPort: 5001
           env:

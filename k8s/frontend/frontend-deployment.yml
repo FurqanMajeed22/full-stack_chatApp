@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: public.ecr.aws/y3r2o5t7/frontend
+        image: public.ecr.aws/j3o0k2l3/frontend
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80

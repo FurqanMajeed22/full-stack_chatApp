@@ -1,6 +1,6 @@
 resources:
   # Database manifests
-  - database/namespace.yml
+
   - database/mongo-pvc.yml
   - database/mongodb-deployment.yml
   - database/mongodb-pv.yml

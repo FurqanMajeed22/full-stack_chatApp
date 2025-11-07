@@ -1,0 +1,16 @@
+resources:
+  # Database manifests
+  - database/namespace.yml
+  - database/mongo-pvc.yml
+  - database/mongodb-deployment.yml
+  - database/mongodb-pv.yml
+  - database/mongodb-service.yml
+
+  # Backend manifests
+  - backend/backend-deployment.yml
+  - backend/backend-secrets.yml
+  - backend/backend-service.yml
+
+  # Frontend manifests
+  - frontend/frontend-deployment.yml
+  - frontend/frontend-service.yml
